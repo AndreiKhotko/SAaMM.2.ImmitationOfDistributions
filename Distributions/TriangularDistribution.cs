@@ -11,6 +11,12 @@ namespace Distributions
         public bool IsFirstVariant { get; set; }
         public TriangularDistribution(Generator generator, double a, double b, bool isFirstVariant) : base(generator)
         {
+            if (a > b)
+            {
+                var tmp = a;
+                a = b;
+                b = tmp;
+            }
             A = a;
             B = b;
             IsFirstVariant = isFirstVariant;

@@ -9,6 +9,12 @@ namespace Distributions
         public double B { get; set; }
         public UniformDistribution(Generator generator, double a, double b) : base(generator)
         {
+            if (a > b)
+            {
+                var tmp = a;
+                a = b;
+                b = tmp;
+            }
             A = a;
             B = b;
         }

@@ -10,6 +10,12 @@ namespace Distributions
         private UniformDistribution uniformDistribution;
         public SimpsonsDistribution(Generator generator, double a, double b) : base(generator)
         {
+            if (a > b)
+            {
+                var tmp = a;
+                a = b;
+                b = tmp;
+            }
             A = a;
             B = b;
             uniformDistribution = new UniformDistribution(Generator, A / 2, B / 2);
