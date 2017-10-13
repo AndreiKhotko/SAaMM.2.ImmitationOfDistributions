@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemerAlgorithm", "LemerAlgo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distributions", "Distributions\Distributions.csproj", "{5B8315EB-B4E3-43EF-AA71-59467529C335}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distributions.UI.Winforms", "Distributions.UI.Winforms\Distributions.UI.Winforms.csproj", "{FD58FCB5-B64F-4AE4-A688-F04737791713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B8315EB-B4E3-43EF-AA71-59467529C335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B8315EB-B4E3-43EF-AA71-59467529C335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B8315EB-B4E3-43EF-AA71-59467529C335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD58FCB5-B64F-4AE4-A688-F04737791713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD58FCB5-B64F-4AE4-A688-F04737791713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD58FCB5-B64F-4AE4-A688-F04737791713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD58FCB5-B64F-4AE4-A688-F04737791713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
